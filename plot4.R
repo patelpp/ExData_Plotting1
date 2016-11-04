@@ -47,6 +47,6 @@ plot4 <- function(file){
   plot(df$datetime, df$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")
   
   #file is created
-  dev.copy(png, file="plot3.png", width=480, height=480)
+  dev.copy(png, file="plot4.png", width=480, height=480)
   dev.off()
 }
